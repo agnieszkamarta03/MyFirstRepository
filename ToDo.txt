@@ -1,0 +1,14 @@
+1. Make this project to work for all users that clone this repository
+
+2. Write a class that solves this problem: https://leetcode.com/problems/contains-duplicate/description/.
+It should work like this:
+a. I'm sending POST request to this URL: /api/problems/217
+b. I'm sending this in request body:
+{
+    "nums": [1,2,3,1]
+}
+
+c. I get this JSON in response:
+{
+    "result": true
+}
